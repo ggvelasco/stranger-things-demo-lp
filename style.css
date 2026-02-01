@@ -8,8 +8,9 @@
 @font-face {
   font-family: Benguiat;
   src:
-    url("/assets/fonts/Benguiat-Regular.woff2") format("woff2"),
-    url("/assets/fonts/Benguiat-Regular.woff") format("woff");
+    url("./assets/fonts/Benguiat-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Benguiat-Regular.woff") format("woff");
+  font-display: swap;
 }
 html,
 body {
@@ -63,6 +64,9 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9999;
+  top: 0;
+  left: 0;
 
   svg {
     width: 30vw;
