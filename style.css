@@ -7,10 +7,9 @@
 
 @font-face {
   font-family: Benguiat;
-  src:
-    url("./assets/fonts/Benguiat-Regular.woff2") format("woff2"),
-    url("./assets/fonts/Benguiat-Regular.woff") format("woff");
+  src: url("./assets/Benguiat Bold.ttf") format("truetype");
   font-display: swap;
+  font-weight: bold;
 }
 html,
 body {
